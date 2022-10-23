@@ -1,0 +1,99 @@
+.episodes__section {
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-top: 93px;
+}
+.header__box {
+    display: flex;
+    margin-bottom: 66px;
+    align-items: center;
+}
+.episodes__header {
+font-family: 'DM Sans';
+font-style: normal;
+font-weight: 400;
+font-size: 64px;
+line-height: 1.24;
+
+letter-spacing: 2.88px;
+
+color: #FFFFFF;
+
+}
+.episodes__header__btn {
+    display: block;
+    margin-left: auto;
+}
+
+.edisode__list{
+    display: flex;
+    flex-direction: column;
+    gap: 60px;
+}
+.episode__item {
+    display: flex;
+    background-color: #000000;
+    padding: 40px;
+    border-radius: 32px;
+}
+
+.episode__image {
+   display: block;
+   margin-right: 53px;
+}
+
+.episode__item__wrap {
+
+}
+
+.hash-tag__btn {
+background-color: #191919;
+border-radius: 6px;
+font-family: 'DM Sans';
+font-style: normal;
+font-weight: 400;
+font-size: 18px;
+line-height: 1.5;
+
+color: #FFFFFF;
+padding: 0 16px;
+display: inline-flex;
+margin-top: 8px;
+margin-bottom: 48px;
+}
+
+.episode__link {
+    display: block;
+    margin-bottom: 18px;
+}
+
+.episode__item__header {
+font-family: 'DM Sans';
+font-style: normal;
+font-weight: 400;
+font-size: 57px;
+line-height: 1.24;
+
+letter-spacing: 2.56px;
+
+color: #FFFFFF;
+
+margin-bottom: 18px;
+}
+
+.episode__text {
+font-family: 'DM Sans';
+font-style: normal;
+font-weight: 400;
+font-size: 22px;
+line-height: 1.5;
+color: rgba(255, 255, 255, 0.7);
+margin-bottom: 18px;
+}
+
+.episodes__btn {
+    display: block;
+    margin-bottom: 0;
+    margin-top: auto;
+}
+
