@@ -1,19 +1,17 @@
 .hero__section {
   display: flex;
-  padding: 0 20px;
+  padding: 0 50px;
 }
 
 .thumb {
     position: relative;
 }
-.splash {
+.splash__hero {
     position: absolute;
     top: -25px;
     left: -30px;
     rotate: 110deg;
-    width: 68px;
-    height: 74px;
-    background: transparent;
+    
     z-index: 1;
 }
 .hero__img {

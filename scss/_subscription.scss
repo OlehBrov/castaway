@@ -1,0 +1,102 @@
+.subscription {
+  padding: 100px 50px;
+}
+.subscription__wrap {
+    position: relative;
+    background-color: rgba(0, 0, 0, 1);
+    padding: 60px 60px 75px 60px;
+    display: flex;
+    justify-content: space-between;
+    border-radius: 32px;
+}
+
+.splash__subscripton {
+position: absolute;
+bottom: -30px;
+left: -15px;
+
+}
+.subscription__text {
+    display: block;
+}
+.subscription__paragraph {
+font-family: 'DM Sans';
+font-style: normal;
+font-weight: 400;
+font-size: 18px;
+line-height: 1.5;
+color: #118DA8;  
+}
+
+.subscription__header{
+    
+font-family: 'DM Sans';
+font-style: normal;
+font-weight: 400;
+font-size: 72px;
+line-height: 1.1;
+
+letter-spacing: 2.88px;
+color: #FFFFFF;
+}
+.subscription__form {
+    display: block;
+    width: calc(100%/2);
+    
+}
+
+
+.input__name {
+    margin-bottom: 20px;
+}
+.input__name,
+.input__email {
+    width: 100%;
+    background: #191919;
+    border: 1px solid #191919;
+    border-radius: 6px;
+    font-family: 'DM Sans';
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 1.2;
+    padding: 26px 19px;
+    color: #FFFFFF;
+
+}
+.input__name::placeholder,
+.input__email::placeholder {
+font-style: normal;
+font-weight: 400;
+font-size: 24px;
+line-height: 1.2;
+color: rgba(255, 255, 255, 0.7);
+
+}
+.input__name:focus,
+.input__email:focus {
+color: #FFFFFF;
+font-weight: 400;
+font-size: 24px;
+line-height: 1.2;
+outline: transparent;
+-webkit-box-shadow: -1px 1px 19px 5px rgba(17,141,168,1);
+-moz-box-shadow: -1px 1px 19px 5px rgba(17,141,168,1);
+box-shadow: -1px 1px 19px 5px rgba(17,141,168,1);
+
+}
+
+.submit__btn {
+background: #118DA8;
+border-radius: 6px;
+
+font-family: 'DM Sans';
+font-style: normal;
+font-weight: 700;
+font-size: 15px;
+line-height: 1.92;
+color: rgba(255, 255, 255, 0.7);
+
+padding: 10px 15px;
+margin-top: 20px;
+cursor: pointer;
+}

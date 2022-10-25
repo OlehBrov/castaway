@@ -1,17 +1,66 @@
 .host {
-padding: 50px 100px;
+padding: 100px 50px;
+display: flex;
+justify-content: space-between;
 }
 
-
+.host__article {
+    display: block;
+    margin-top: auto;
+    margin-bottom: auto;
+    margin-right: 94px;
+}
 .arrow__btn {
     background-color: #118DA8;
     width: 112px;
     height: 122px;
     border: none;
     border-radius: 50%;
+    margin-bottom: 20px;
+}
+
+.host__link {
+    display: block;
+    font-family: 'DM Sans';
+font-style: normal;
+font-weight: 400;
+font-size: 18px;
+line-height: 1.5;
+color: #118DA8;
+
+}
+
+.host__header {
+font-family: 'DM Sans';
+font-style: normal;
+font-weight: 400;
+font-size: 65px;
+line-height: 1.22;
+letter-spacing: 2.88px;
+
+color: #FFFFFF;
+
+margin-bottom: 28px;
+
+}
+
+.host__descr {
+font-family: 'DM Sans';
+font-style: normal;
+font-weight: 400;
+font-size: 22px;
+line-height: 1.5;
+color: rgba(255, 255, 255, 0.7);
+}
+.host__descr:not(:last-child){
+    margin-bottom: 33px;
+}
+.host__thumb {
+    display: block;
+    
 }
 
 .host__image {
     display: block;
-    width: 650px;
+   border-radius: 15px;
 }
