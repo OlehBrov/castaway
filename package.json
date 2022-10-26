@@ -1,12 +1,20 @@
 {
   "name": "castaway",
   "version": "1.0.0",
-  "description": "",
-  "main": "index.js",
+  "main": "index.html",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "keywords": [],
   "author": "",
-  "license": "ISC"
+  "license": "ISC",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/OlehBrov/castaway.git"
+  },
+  "bugs": {
+    "url": "https://github.com/OlehBrov/castaway/issues"
+  },
+  "homepage": "https://github.com/OlehBrov/castaway#readme",
+  "description": ""
 }

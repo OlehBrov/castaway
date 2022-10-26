@@ -1,3 +1,4 @@
+la
 <!DOCTYPE html>
 <html lang="en">
 
@@ -8,6 +9,7 @@
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin="">
     <link href="https://fonts.googleapis.com/css2?family=DM+Sans&family=DM+Serif+Display&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/modern-normalize/1.1.0/modern-normalize.min.css">
     <link rel="stylesheet" href="/main.min.47619568.css">
     <title>Castaway</title>
@@ -53,7 +55,7 @@
         <section class="container hero__section">
             <div class="thumb">
                 <img src="/hero_img.6cb39205.jpg" alt="" class="hero__img">
-                <svg class="splash">
+                <svg class="splash splash__hero">
                     <use href="/symbol-defs.cf4a5e97.svg#icon-splash__corner">
 
                     </use>
@@ -177,22 +179,99 @@
                 </li>
             </ul>
         </section>
-        <section class="container">
-            <div class="host">
-                <div class="host__article">
-                    <button type="button" class="arrow__btn">
-                        
-                      
-                    </button>
-                    <a href="http://">Meet your host</a>
-                    <h3>Jacob Paulaner</h3>
-                    <p>Jacob has a background in audio engineering, and has been podcasting since the early days.</p>
-                    <p>He’s here to help you level up your game by sharing everything he’s learned along the way.</p>
-                    <img src="/host_img.819ba269.jpg" alt="" class="host__image">
-                </div>
+        <section class="container host">
 
+            <div class="host__article">
+                <button type="button" class="arrow__btn">
+
+
+                </button>
+                <a href="http://" class="host__link link">Meet your host</a>
+                <h3 class="host__header">Jacob Paulaner</h3>
+                <p class="host__descr">Jacob has a background in audio engineering, and has been podcasting since the
+                    early days.</p>
+                <p class="host__descr">He’s here to help you level up your game by sharing everything he’s learned along
+                    the way.</p>
 
             </div>
+            <div class="host__thumb"><img src="/host_img.819ba269.jpg" alt="" class="host__image"></div>
+        </section>
+        <section class="container subscription">
+            <div class="subscription__wrap">
+                <svg class="splash splash__subscripton">
+                    <use href="/symbol-defs.cf4a5e97.svg#icon-splash__corner">
+                
+                    </use>
+                </svg>
+                <div class="subscription__text">
+                    <p class="subscription__paragraph">Email Newsletter</p>
+                    <h3 class="subscription__header">Subscribe for updates</h3>
+                </div>
+                <form class="subscription__form">
+                    <label class="subscription__label">
+                        <input type="text" name="name" placeholder="Name" class="input__name">
+                        <input type="text" name="email" placeholder="Email" class="input__email">
+                    </label>
+                    <button type="button" class="submit__btn">Submit</button>
+                </form>
+            </div>
+
+
+        </section>
+
+        <section class="container feedback">
+            <div class="star-rating">
+                <div class="star-rating__wrap">
+                    <input class="star-rating__input" id="star-rating-5" type="radio" name="rating" value="5">
+                    <label class="star-rating__ico fa fa-star-o fa-lg" for="star-rating-5" title="5 out of 5 stars"></label>
+                    <input class="star-rating__input" id="star-rating-4" type="radio" name="rating" value="4">
+                    <label class="star-rating__ico fa fa-star-o fa-lg" for="star-rating-4" title="4 out of 5 stars"></label>
+                    <input class="star-rating__input" id="star-rating-3" type="radio" name="rating" value="3">
+                    <label class="star-rating__ico fa fa-star-o fa-lg" for="star-rating-3" title="3 out of 5 stars"></label>
+                    <input class="star-rating__input" id="star-rating-2" type="radio" name="rating" value="2">
+                    <label class="star-rating__ico fa fa-star-o fa-lg" for="star-rating-2" title="2 out of 5 stars"></label>
+                    <input class="star-rating__input" id="star-rating-1" type="radio" name="rating" value="1">
+                    <label class="star-rating__ico fa fa-star-o fa-lg" for="star-rating-1" title="1 out of 5 stars"></label>
+                </div>
+            </div>
+             <!-- <div class="rating">
+                <input type="radio" name="test" id="one" class="input" checked />
+                <label for="one"><i class="fa fa-star"></i></label>
+                <input type="radio" name="test" id="two" class="input"/>
+                <label for="two"><i class="fa fa-star"></i></label>
+                <input type="radio" name="test" id="three" class="input"/>
+                <label for="three"><i class="fa fa-star"></i></label>
+                <input type="radio" name="test" id="four" class="input"/>
+                <label for="four"><i class="fa fa-star"></i></label>
+                <input type="radio" name="test" id="five" class="input"/>
+                <label for="five"><i class="fa fa-star"></i></label>
+            </div> -->
+            <ul class="feedback__list list">
+                <li class="feedback__item">
+
+
+                </li>
+                <li class="feedback__item">
+
+
+                </li>
+                <li class="feedback__item">
+
+
+                </li>
+                <li class="feedback__item">
+
+
+                </li>
+                <li class="feedback__item">
+
+
+                </li>
+                <li class="feedback__item">
+
+
+                </li>
+            </ul>
 
         </section>
 
@@ -200,7 +279,6 @@
 
     </main>
     <footer></footer>
-<script src="/js.00a46daa.js"></script>
 </body>
 
 </html>
